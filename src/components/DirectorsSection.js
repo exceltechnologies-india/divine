@@ -17,6 +17,7 @@ export default function DirectorsSection() {
             </div>
           </div>
 
+          {/* 
           <div className="col-lg-6 col-md-6 col-12 director-card d-flex flex-column">
             <div className="doc-img flex-grow-1 d-flex align-items-stretch">
               <img src="/img/Rani_Jha_2.jpg" alt="Ms. Rani Jha" width={389} height={387} loading="lazy" className="w-100 h-100 object-fit-cover" />
@@ -30,8 +31,9 @@ export default function DirectorsSection() {
               <div className="know-more-button mt-3"><a href="/director-2">Know More</a></div>
             </div>
           </div>
+          */}
         </div>
       </div>
     </section>
   );
-} 
+}

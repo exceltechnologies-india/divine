@@ -4,7 +4,7 @@ export default function DirectorsSection() {
       <div className="container">
         <div className="row g-3">
           {/* Bhanavi Shivaya Card */}
-          <div className="col-lg-6 col-md-6 col-12 director-card d-flex flex-column">
+          <div className="col-12 col-md-6 col-lg-6 director-card d-flex flex-column">
             <div className="doc-img flex-grow-1 d-flex align-items-stretch">
               <img
                 src="/img/Bhanavi_img.jpg"
@@ -30,8 +30,8 @@ export default function DirectorsSection() {
             </div>
           </div>
 
-          {/* Invisible Placeholder Column to Preserve Grid Layout */}
-          <div className="col-lg-6 col-md-6 col-12 d-none d-md-block">
+          {/* Placeholder Column: Hidden on mobile, visible on lg+ to preserve layout */}
+          <div className="col-lg-6 d-none d-lg-block">
             <div className="h-100" style={{ visibility: 'hidden' }}>&nbsp;</div>
           </div>
         </div>

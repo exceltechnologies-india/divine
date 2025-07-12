@@ -56,7 +56,7 @@ export default function Header({ openModal }) {
                       <ul className="submenu">
                         <li><Link href="/about-us">About Divine Wellness Clinic</Link></li>
                         <li><Link href="/director-1">Director - Bhanavi Shivaya</Link></li>
-                        <li><Link href="/director-2">Director - Rani Jha</Link></li>
+                        {/*<li><Link href="/director-2">Director - Rani Jha</Link></li>*/}
                       </ul>
                     </li>
 
